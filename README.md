@@ -1,5 +1,5 @@
-# Teste_WK
-TESTE TÉCNICO - WK Tecnology
+# Portfolio Delphi
+Orientação a objetos, MVC e camada de persistencia com RTTI
 
 ## Banco de dados
 MySQL 5.7.44.0 - Usando docker
