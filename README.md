@@ -1,4 +1,5 @@
 # Portfolio Delphi
+Sistema para gravação de pedidos e itens.
 Orientação a objetos, MVC e camada de persistencia com RTTI
 
 ## Banco de dados
