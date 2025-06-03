@@ -4,7 +4,7 @@
         <ProjectVersion>20.1</ProjectVersion>
         <FrameworkType>VCL</FrameworkType>
         <Base>True</Base>
-        <Config Condition="'$(Config)'==''">Release</Config>
+        <Config Condition="'$(Config)'==''">Debug</Config>
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
         <ProjectName Condition="'$(ProjectName)'==''">PedidosDeVenda</ProjectName>
         <TargetedPlatforms>3</TargetedPlatforms>
@@ -105,6 +105,7 @@
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
+        <DCC_DcuOutput>D:\github\Portfolio_delphi\dcu\</DCC_DcuOutput>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
@@ -166,6 +167,15 @@
             <Form>FormPesquisa</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="view\FrmFile.pas">
+            <Form>FormFile</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="library\CRADataSets.pas"/>
+        <DCCReference Include="view\FrmCustomers.pas">
+            <Form>FormCustomers</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -187,6 +197,7 @@
                     <Source Name="MainSource">PedidosDeVenda.dpr</Source>
                 </Source>
                 <Excluded_Packages>
+                    <Excluded_Packages Name="C:\Program Files (x86)\DevExpress\VCL\Library\RS29\dcldxEMFRS29.bpl">File C:\Program Files (x86)\DevExpress\VCL\Library\RS29\dcldxEMFRS29.bpl not found</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dcloffice2k290.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dclofficexp290.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
                 </Excluded_Packages>

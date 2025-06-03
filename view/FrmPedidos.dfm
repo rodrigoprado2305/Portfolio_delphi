@@ -19,12 +19,11 @@ object FormPedidos: TFormPedidos
     Top = 25
     Width = 773
     Height = 464
-    ActivePage = tsPesquisa
+    ActivePage = tsCadastro
     Align = alClient
     TabOrder = 0
-    ExplicitTop = 30
     object tsPesquisa: TTabSheet
-      Caption = 'Lista de pedidos'
+      Caption = 'Search'
       object Splitter: TSplitter
         Left = 0
         Top = 161
@@ -43,7 +42,7 @@ object FormPedidos: TFormPedidos
         Width = 765
         Height = 161
         Align = alTop
-        Caption = 'Pedidos'
+        Caption = 'Order'
         TabOrder = 0
         object grdListaPedidos: TDBGrid
           Left = 2
@@ -235,7 +234,7 @@ object FormPedidos: TFormPedidos
           Height = 28
           Cursor = crHandPoint
           Align = alLeft
-          Caption = 'Selecionar pedido para edi'#231#227'o'
+          Caption = 'select record'
           Flat = True
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
@@ -282,7 +281,7 @@ object FormPedidos: TFormPedidos
           Height = 28
           Cursor = crHandPoint
           Align = alLeft
-          Caption = 'Pesquisar/Atualizar '
+          Caption = 'Search'
           Flat = True
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
@@ -324,7 +323,7 @@ object FormPedidos: TFormPedidos
       end
     end
     object tsCadastro: TTabSheet
-      Caption = 'Lan'#231'amento de pedidos'
+      Caption = 'Order Entry'
       ImageIndex = 1
       object gbxItens: TGroupBox
         Left = 0
@@ -334,7 +333,6 @@ object FormPedidos: TFormPedidos
         Align = alClient
         Caption = 'Itens do pedido'
         TabOrder = 1
-        ExplicitTop = 68
         object grdItens: TDBGrid
           Left = 2
           Top = 59
@@ -416,11 +414,11 @@ object FormPedidos: TFormPedidos
           object btnExcluirItem: TSpeedButton
             Left = 153
             Top = 0
-            Width = 88
+            Width = 104
             Height = 28
             Cursor = crHandPoint
             Align = alLeft
-            Caption = 'Excluir item'
+            Caption = 'Delete item'
             Flat = True
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clWindowText
@@ -466,7 +464,7 @@ object FormPedidos: TFormPedidos
             Height = 28
             Cursor = crHandPoint
             Align = alLeft
-            Caption = 'Inserir/ Atualizar item'
+            Caption = 'Insert/ Update item'
             Flat = True
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clWindowText
@@ -504,22 +502,23 @@ object FormPedidos: TFormPedidos
             ParentShowHint = False
             ShowHint = False
             OnClick = btnInserirItemClick
+            ExplicitLeft = -6
           end
           object lblTotalGeral: TLabel
-            Left = 665
+            Left = 669
             Top = 3
             Width = 64
             Height = 13
             Caption = 'Total Geral'
           end
           object btnEditarItem: TSpeedButton
-            Left = 241
+            Left = 257
             Top = 0
             Width = 91
             Height = 28
             Cursor = crHandPoint
             Align = alLeft
-            Caption = 'Editar item'
+            Caption = 'Edit Item'
             Flat = True
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clWindowText
@@ -557,15 +556,16 @@ object FormPedidos: TFormPedidos
             ParentShowHint = False
             ShowHint = False
             OnClick = btnEditarItemClick
+            ExplicitLeft = 241
           end
           object btnCancelarItem: TSpeedButton
-            Left = 332
+            Left = 348
             Top = 0
             Width = 149
             Height = 28
             Cursor = crHandPoint
             Align = alLeft
-            Caption = 'Cancelar edi'#231#227'o Item'
+            Caption = 'Cancel item'
             Flat = True
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clWindowText
@@ -603,6 +603,7 @@ object FormPedidos: TFormPedidos
             ParentShowHint = False
             ShowHint = False
             OnClick = btnCancelarItemClick
+            ExplicitLeft = 338
           end
           object edtTotalGeral: TEdit
             Left = 546
@@ -675,7 +676,7 @@ object FormPedidos: TFormPedidos
             Height = 23
             Alignment = taRightJustify
             Color = clSilver
-            EditLabel.Width = 54
+            EditLabel.Width = 55
             EditLabel.Height = 15
             EditLabel.Caption = 'Valor Total'
             Enabled = False
@@ -746,7 +747,7 @@ object FormPedidos: TFormPedidos
         Width = 765
         Height = 68
         Align = alTop
-        Caption = 'Cabe'#231'alho do pedido'
+        Caption = 'Order header'
         Color = clBtnFace
         ParentBackground = False
         ParentColor = False
@@ -858,8 +859,6 @@ object FormPedidos: TFormPedidos
         ParentCtl3D = False
         ParentFont = False
         TabOrder = 2
-        ExplicitLeft = 2
-        ExplicitTop = 366
         object btnInserirPedido: TSpeedButton
           Left = 0
           Top = 0
@@ -867,7 +866,7 @@ object FormPedidos: TFormPedidos
           Height = 28
           Cursor = crHandPoint
           Align = alLeft
-          Caption = 'Inserir Pedido'
+          Caption = 'Insert Order'
           Flat = True
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
@@ -915,7 +914,7 @@ object FormPedidos: TFormPedidos
           Height = 28
           Cursor = crHandPoint
           Align = alLeft
-          Caption = 'Gravar/Atualizar'
+          Caption = 'Post'
           Flat = True
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
@@ -953,6 +952,8 @@ object FormPedidos: TFormPedidos
           ParentShowHint = False
           ShowHint = False
           OnClick = btnGravarPedidoClick
+          ExplicitLeft = 305
+          ExplicitTop = -6
         end
         object btnAlterarPedido: TSpeedButton
           Left = 107
@@ -961,7 +962,7 @@ object FormPedidos: TFormPedidos
           Height = 28
           Cursor = crHandPoint
           Align = alLeft
-          Caption = 'Alterar'
+          Caption = 'Edit'
           Flat = True
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
@@ -1007,7 +1008,7 @@ object FormPedidos: TFormPedidos
           Height = 28
           Cursor = crHandPoint
           Align = alLeft
-          Caption = 'Excluir/Cancelar'
+          Caption = 'Delete'
           Flat = True
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
@@ -1054,7 +1055,7 @@ object FormPedidos: TFormPedidos
           Height = 28
           Cursor = crHandPoint
           Align = alLeft
-          Caption = 'Cancelar edi'#231#227'o'
+          Caption = 'Cancel'
           Flat = True
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
@@ -1092,8 +1093,8 @@ object FormPedidos: TFormPedidos
           ParentShowHint = False
           ShowHint = False
           OnClick = btnCancelarPedidoClick
-          ExplicitLeft = 501
-          ExplicitTop = 4
+          ExplicitLeft = 444
+          ExplicitTop = -6
         end
       end
     end
@@ -1114,7 +1115,7 @@ object FormPedidos: TFormPedidos
       BevelInner = bvLowered
       BevelOuter = bvNone
       BorderStyle = bsSingle
-      Caption = 'FormPedidos - Digita'#231#227'o de Pedidos'
+      Caption = 'FormPedidos - Order Entry'
       Color = clSilver
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
@@ -1124,6 +1125,8 @@ object FormPedidos: TFormPedidos
       ParentBackground = False
       ParentFont = False
       TabOrder = 0
+      ExplicitLeft = 3
+      ExplicitTop = -4
     end
   end
   object memListaPedidos: TFDMemTable

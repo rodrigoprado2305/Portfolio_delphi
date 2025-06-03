@@ -286,7 +286,7 @@ begin
     pedidos_produtos.Registro.Quantidade := memItens.FieldByName('t004_quantidade').AsInteger;
     pedidos_produtos.Registro.ValorUnitario := memItens.FieldByName('t004_vlr_unitario').AsFloat;
     pedidos_produtos.Registro.ValorTotal := memItens.FieldByName('t004_vlr_total').AsFloat;
-    pedidos_produtos.salva;
+    pedidos_produtos.insert;
 
     memItens.Next;
   end;

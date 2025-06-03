@@ -70,7 +70,7 @@ end;
 function TController_t001_clientes.insert: boolean;
 begin
   try
-    SaveObj(Registro);
+    InsertObj(Registro);
     Result := true;
   except
     Result := False;

@@ -3,16 +3,16 @@
 	<Transactions>
     <Transaction>2024/07/19 12:23:05.000.184,=C:\Users\rod_c\OneDrive\Imagens\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2024/10/14 20:14:45.000.401,=C:\Users\rod_c\OneDrive\Imagens\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/10/14 20:16:51.000.260,D:\github\Teste_WK\main.dfm=C:\Users\rod_c\OneDrive\Imagens\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
     <Transaction>2024/10/14 20:16:51.000.260,D:\github\Teste_WK\main.pas=C:\Users\rod_c\OneDrive\Imagens\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/14 20:16:51.000.260,D:\github\Teste_WK\main.dfm=C:\Users\rod_c\OneDrive\Imagens\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
     <Transaction>2024/10/14 20:17:08.000.390,D:\github\Teste_WK\Teste_WK_Rod.dproj=C:\Users\rod_c\OneDrive\Imagens\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2024/10/14 20:17:25.000.307,=D:\github\Teste_WK\Unit1.pas</Transaction>
-    <Transaction>2024/10/14 20:17:39.000.945,D:\github\Teste_WK\dm.pas=D:\github\Teste_WK\Unit1.pas</Transaction>
     <Transaction>2024/10/14 20:17:39.000.946,D:\github\Teste_WK\dm.dfm=D:\github\Teste_WK\Unit1.dfm</Transaction>
+    <Transaction>2024/10/14 20:17:39.000.945,D:\github\Teste_WK\dm.pas=D:\github\Teste_WK\Unit1.pas</Transaction>
     <Transaction>2024/10/14 20:18:06.000.965,D:\github\Teste_WK\uDM.pas=D:\github\Teste_WK\dm.pas</Transaction>
     <Transaction>2024/10/14 20:18:06.000.965,D:\github\Teste_WK\uDM.dfm=D:\github\Teste_WK\dm.dfm</Transaction>
-    <Transaction>2024/10/14 20:18:20.000.514,D:\github\Teste_WK\uMain.dfm=D:\github\Teste_WK\main.dfm</Transaction>
     <Transaction>2024/10/14 20:18:20.000.514,D:\github\Teste_WK\uMain.pas=D:\github\Teste_WK\main.pas</Transaction>
+    <Transaction>2024/10/14 20:18:20.000.514,D:\github\Teste_WK\uMain.dfm=D:\github\Teste_WK\main.dfm</Transaction>
     <Transaction>2024/10/14 22:20:01.000.902,=D:\github\Teste_WK\Unit1.pas</Transaction>
     <Transaction>2024/10/14 22:22:48.000.337,D:\github\Teste_WK\Unit1.pas=D:\github\Teste_WK\uBiblioteca.pas</Transaction>
     <Transaction>2024/10/14 22:24:24.000.064,=D:\github\Teste_WK\Unit1.pas</Transaction>
@@ -24,8 +24,8 @@
     <Transaction>2024/10/15 10:33:23.000.149,D:\github\Teste_WK\view\FrmPesquisa.pas=</Transaction>
     <Transaction>2024/10/15 10:33:27.000.778,=D:\github\Teste_WK\view\frmWeb.pas</Transaction>
     <Transaction>2024/10/15 10:36:04.000.875,=D:\github\Teste_WK\Unit1.pas</Transaction>
-    <Transaction>2024/10/15 10:36:51.000.905,D:\github\Teste_WK\view\FrmPedidos.dfm=D:\github\Teste_WK\Unit1.dfm</Transaction>
     <Transaction>2024/10/15 10:36:51.000.905,D:\github\Teste_WK\view\FrmPedidos.pas=D:\github\Teste_WK\Unit1.pas</Transaction>
+    <Transaction>2024/10/15 10:36:51.000.905,D:\github\Teste_WK\view\FrmPedidos.dfm=D:\github\Teste_WK\Unit1.dfm</Transaction>
     <Transaction>2024/10/15 10:49:57.000.655,=D:\github\Teste_WK\Unit1.pas</Transaction>
     <Transaction>2024/10/15 10:50:11.000.954,D:\github\Teste_WK\uVariaveis.pas=D:\github\Teste_WK\Unit1.pas</Transaction>
     <Transaction>2024/10/15 12:44:37.000.491,=D:\github\Teste_WK\Unit1.pas</Transaction>
@@ -40,10 +40,10 @@
     <Transaction>2024/10/15 12:49:53.000.026,D:\github\Teste_WK\model\TEntity.pas=D:\github\Teste_WK\Unit1.pas</Transaction>
     <Transaction>2024/10/15 12:50:04.000.197,=D:\github\Teste_WK\Unit1.pas</Transaction>
     <Transaction>2024/10/15 12:51:17.000.381,D:\github\Teste_WK\model\TEntity.pas=</Transaction>
-    <Transaction>2024/10/15 12:52:38.000.472,=D:\github\Teste_WK\model\orm\GenericEntity.pas</Transaction>
     <Transaction>2024/10/15 12:52:38.000.418,=D:\github\Teste_WK\model\orm\CAtribEntity.pas</Transaction>
-    <Transaction>2024/10/15 12:52:38.000.505,=D:\github\Teste_WK\model\orm\GenericORM.pas</Transaction>
     <Transaction>2024/10/15 12:52:38.000.548,=D:\github\Teste_WK\model\orm\TEntity.pas</Transaction>
+    <Transaction>2024/10/15 12:52:38.000.505,=D:\github\Teste_WK\model\orm\GenericORM.pas</Transaction>
+    <Transaction>2024/10/15 12:52:38.000.472,=D:\github\Teste_WK\model\orm\GenericEntity.pas</Transaction>
     <Transaction>2024/10/15 12:54:52.000.652,D:\github\Teste_WK\model\tbl_t001_clientes.pas=D:\github\Teste_WK\model\tOO1_clientes.pas</Transaction>
     <Transaction>2024/10/15 12:58:09.000.404,=D:\github\Teste_WK\Unit1.pas</Transaction>
     <Transaction>2024/10/15 12:58:13.000.062,=D:\github\Teste_WK\Unit2.pas</Transaction>
@@ -83,7 +83,15 @@
     <Transaction>2024/10/16 12:36:01.000.362,=D:\github\Teste_WK\Unit1.pas</Transaction>
     <Transaction>2024/10/16 12:46:37.000.822,D:\github\Teste_WK\view\FrmPesquisa.dfm=D:\github\Teste_WK\Unit1.dfm</Transaction>
     <Transaction>2024/10/16 12:46:37.000.822,D:\github\Teste_WK\view\FrmPesquisa.pas=D:\github\Teste_WK\Unit1.pas</Transaction>
-    <Transaction>2025/03/07 16:40:22.801,D:\github\Portfolio_delphi\PedidosDeVenda.dproj=D:\github\Portfolio_delphi\Teste_WK_Rod.dproj</Transaction>
+    <Transaction>2025/03/07 16:40:22.000.801,D:\github\Portfolio_delphi\PedidosDeVenda.dproj=D:\github\Portfolio_delphi\Teste_WK_Rod.dproj</Transaction>
+    <Transaction>2025/06/02 22:41:35.000.302,=D:\github\Portfolio_delphi\Unit1.pas</Transaction>
+    <Transaction>2025/06/02 22:42:54.000.552,=D:\github\Portfolio_delphi\Unit1.pas</Transaction>
+    <Transaction>2025/06/02 22:43:06.000.902,D:\github\Portfolio_delphi\view\FrmFile.pas=D:\github\Portfolio_delphi\Unit1.pas</Transaction>
+    <Transaction>2025/06/02 22:43:06.000.902,D:\github\Portfolio_delphi\view\FrmFile.dfm=D:\github\Portfolio_delphi\Unit1.dfm</Transaction>
+    <Transaction>2025/06/02 22:44:44.000.580,=D:\github\Portfolio_delphi\Unit1.pas</Transaction>
+    <Transaction>2025/06/02 22:45:35.000.352,D:\github\Portfolio_delphi\library\CRADataSets.pas=D:\github\Portfolio_delphi\Unit1.pas</Transaction>
+    <Transaction>2025/06/03 00:09:15.000.692,=D:\github\Portfolio_delphi\Unit1.pas</Transaction>
+    <Transaction>2025/06/03 00:09:55.000.672,=D:\github\Portfolio_delphi\view\FrmCustomers.pas</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="controller"/>
@@ -92,6 +100,8 @@
     <File Path="controller\Controller_t002_produtos.pas"/>
     <File Path="controller\Controller_t003_pedidos.pas"/>
     <File Path="controller\Controller_tbl_t004_pedidos_produtos.pas"/>
+    <File Path="library"/>
+    <File Path="library\CRADataSets.pas"/>
     <File Path="model"/>
     <File Path="model\orm"/>
     <File Path="model\orm\CAtribEntity.pas"/>
@@ -115,6 +125,10 @@
     <File Path="view\FrmPesquisa.dfm"/>
     <File Path="view\frmWeb.pas"/>
     <File Path="view\frmWeb.dfm"/>
+    <File Path="view\FrmFile.pas"/>
+    <File Path="view\FrmFile.dfm"/>
+    <File Path="view\FrmCustomers.pas"/>
+    <File Path="view\FrmCustomers.dfm"/>
     <File Path="uMain.pas"/>
     <File Path="uMain.dfm"/>
     <File Path="uDM.pas"/>

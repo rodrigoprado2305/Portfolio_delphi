@@ -31,7 +31,10 @@ uses
   Controller_t003_pedidos in 'controller\Controller_t003_pedidos.pas',
   Controller_tbl_t004_pedidos_produtos in 'controller\Controller_tbl_t004_pedidos_produtos.pas',
   uFormat in 'uFormat.pas',
-  FrmPesquisa in 'view\FrmPesquisa.pas' {FormPesquisa};
+  FrmPesquisa in 'view\FrmPesquisa.pas' {FormPesquisa},
+  FrmFile in 'view\FrmFile.pas' {FormFile},
+  CRADataSets in 'library\CRADataSets.pas',
+  FrmCustomers in 'view\FrmCustomers.pas' {FormCustomers};
 
 {$R *.res}
 
@@ -39,10 +42,8 @@ Var
   MutexHandle: THandle;
 
 begin
-  //Não deixar variavels sem finalizar a instância, a maioria dos sistemas não utilizam esse recurso
-  ReportMemoryLeaksOnShutDown := DebugHook <> 0;
+  ReportMemoryLeaksOnShutDown := DebugHook <> 0; //for memory leaks
 
-  //Não Chamar o .exe mais de uma vez no processo do windows
   MutexHandle := CreateMutex(nil, TRUE, 'MstGestao');
   if MutexHandle <> 0 then
   begin

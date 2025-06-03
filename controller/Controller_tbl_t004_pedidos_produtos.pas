@@ -23,7 +23,6 @@ Type
     function insert:boolean;
     Function delete:boolean;
     function getByKey:Boolean;
-    function salva:boolean;
     procedure getbyId;
     procedure apagarItensPorPedido(iPedidoID: integer);
 
@@ -75,14 +74,6 @@ begin
   except
     Result := False;
   end;
-end;
-
-function TController_t004_pedidos_produtos.salva: boolean;
-begin
-  Result := True;
-  //if Registro.Codigo = 0 then
-    //Registro.Codigo := Generator('GN_TRIB_ICMS_SN');
-  SaveObj(Registro);
 end;
 
 function TController_t004_pedidos_produtos.save: boolean;
